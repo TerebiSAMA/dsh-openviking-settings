@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "title": {
+    "en": "OpenViking DSH Plugins",
+    "zh": "OpenViking DSH 插件"
+  },
+  "description": {
+    "en": "Community index with the OpenViking status plugin for DeepSeek Harness. Requires a deployed OpenViking service.",
+    "zh": "社区插件索引，收录面向 DeepSeek Harness 的 OpenViking 状态插件。需要先部署 OpenViking 服务。"
+  },
+  "metadata": {
+    "categories": {
+      "memory": {
+        "title": {
+          "en": "Memory",
+          "zh": "记忆"
+        }
+      }
+    },
+    "labels": {
+      "requires-openviking": {
+        "title": {
+          "en": "Requires OpenViking",
+          "zh": "需要 OpenViking"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@openviking/dsh-openviking-settings",
+      "title": {
+        "en": "OpenViking Status",
+        "zh": "OpenViking 状态"
+      },
+      "description": {
+        "en": "Adds an OpenViking status page to the DSH Settings dialog: connection, service health, memory and session counts, capture settings and a redacted server configuration. Requires a deployed OpenViking service — the page only shows live data after OpenViking is running and configured.",
+        "zh": "在 DSH【设置】里新增 OpenViking 状态页：连接状态、服务健康、记忆与会话计数、捕获开关以及脱敏的服务端配置。需要先部署 OpenViking 服务，配置完成后页面才会显示实时数据。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9Ik9wZW5WaWtpbmcgc2V0dGluZ3MiPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJvdiIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMyZjZmNGYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMWQ0NjMzIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB4PSIyIiB5PSIyIiB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHJ4PSIxNCIgZmlsbD0idXJsKCNvdikiLz4KICA8cGF0aCBkPSJNMzIgMTNjNy4yIDAgMTMgNC42IDEzIDEwLjMgMCAzLjEtMS40IDUuOS0zLjcgNy44djguMWE0IDQgMCAwIDEtNCA0SDI2LjdhNCA0IDAgMCAxLTQtNHYtOC4xYTEwIDEwIDAgMCAxLTMuNy03LjhDMTkgMTcuNiAyNC44IDEzIDMyIDEzWiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZThmNWVlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KICA8cGF0aCBkPSJNMjYuNSAyMi41aDExTTI2LjUgMjcuNWgxMU0yNi41IDMyLjVoNyIgc3Ryb2tlPSIjZThmNWVlIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K",
+      "author": "TerebiSAMA",
+      "homepage": "https://github.com/TerebiSAMA/dsh-openviking-settings",
+      "repository": {
+        "url": "https://github.com/TerebiSAMA/dsh-openviking-settings"
+      },
+      "metadata": {
+        "category": "memory",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "openviking",
+          "memory"
+        ],
+        "labels": [
+          "requires-openviking"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794207432,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/TerebiSAMA/dsh-openviking-settings.git",
+            "commit": "7af63756213448d693fef60e33b7b8a9d53b3b91"
+          },
+          "engines": {}
+        }
+      ]
+    }
+  ]
+}
