@@ -1,0 +1,57 @@
+{
+  "name": "@openviking/dsh-openviking-settings",
+  "version": "0.1.0",
+  "description": "Adds an OpenViking status page to the DeepSeek Harness Settings dialog: connection, service health, memory and session counts, capture settings and a redacted server configuration. Requires a deployed OpenViking service — the page only shows live data after OpenViking is running and configured.",
+  "icon": "./icon.svg",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "icon.svg",
+    "locale/*.json",
+    "cordis.patch.yml",
+    "README.md",
+    "README_EN.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "openviking",
+    "memory",
+    "settings"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerebiSAMA/dsh-openviking-settings.git"
+  },
+  "homepage": "https://github.com/TerebiSAMA/dsh-openviking-settings",
+  "bugs": {
+    "url": "https://github.com/TerebiSAMA/dsh-openviking-settings/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  }
+}

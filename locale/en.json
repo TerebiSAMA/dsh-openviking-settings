@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OpenViking Status",
+    "description": "Adds an OpenViking status page to the DeepSeek Harness Settings dialog: connection, service health, memory and session counts, capture settings and a redacted server configuration. Requires a deployed OpenViking service — the page only shows live data after OpenViking is running and configured."
+  }
+}

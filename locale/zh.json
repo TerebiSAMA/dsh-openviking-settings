@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OpenViking 状态",
+    "description": "在 DSH【设置】里新增 OpenViking 状态页：连接状态、服务健康、记忆与会话计数、捕获开关以及脱敏的服务端配置。需要先部署 OpenViking 服务，配置完成后页面才会显示实时数据。"
+  }
+}

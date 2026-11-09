@@ -1,0 +1,5 @@
+- insert:
+    # 宿主半：注册 `/api/openviking/status` 路由（页面数据的唯一来源）。
+    # 浏览器半由同一个包的 `dsh.client` 声明暴露（exports["./client"]）。
+    - id: openviking-settings
+      name: '@openviking/dsh-openviking-settings'
